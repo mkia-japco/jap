@@ -31,6 +31,8 @@ import About from './src/components/About';
 import Contactus from './src/components/Contactus';
 import Profile from './src/components/Profile';
 import OrderList from './src/components/OrderList';
+import ResetPass from './src/components/ResetPass';
+import RecoveryPass from './src/components/RecoveryPass';
 
 
 
@@ -82,6 +84,8 @@ export default class App extends React.PureComponent{
                 <Stack key="auth" hideNavBar>
                   <Scene key="login" component={Login} initial  back/>
                   <Scene key="register" component={Register} back/>
+                  <Scene key="resetpass" component={ResetPass} back/>
+                  <Scene key="recoverypass" component={RecoveryPass} back/>
 
                 </Stack>
                 <Scene key="splash" component={Splash} initial back/>
