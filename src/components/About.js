@@ -92,6 +92,12 @@ const styles = StyleSheet.create({
       alignItems: "center",
       marginTop: 22
     },
+    View: {
+      flex: 12,
+      justifyContent: "center",
+      alignItems: "center",
+      marginTop: 24
+    },
     modalView: {
   
       width:'100%',
